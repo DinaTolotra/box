@@ -13,14 +13,14 @@ We can draw a full and closed table with the methode drawFullBox().
 
 But we can also Draw the table row by row like:
 
-> Box.box;
-> ...
-> box.drawTopLine(...);
-> for (...) {
->     box.drawContentLine(...);
->     box.drawMiddleLine(...);    
-> }
-> box.drawBottomLine(...);
+    Box.box;
+    ...
+    box.drawTopLine(...);
+    for (...) {
+      box.drawContentLine(...);
+      box.drawMiddleLine(...);
+    }
+    box.drawBottomLine(...);
 
 ## Coming soon
 
